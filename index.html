@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Herbal - Nature’s Healing Touch</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #f5f9f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #6ba84d;
+      color: #fff;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 4rem 2rem;
+      background: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero button {
+      padding: 0.8rem 1.5rem;
+      background: #6ba84d;
+      border: none;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      color: #4c8b3b;
+    }
+
+    .products, .benefits, .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    footer {
+      background: #4c8b3b;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    footer a {
+      color: #cfe9ce;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Herbal</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#benefits">Benefits</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Nature’s Healing Touch</h1>
+    <p>Explore 100% organic, herbal solutions for a healthier life.</p>
+    <button>Shop Now</button>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">About Us</h2>
+    <p>Herbal is dedicated to bringing you the finest natural remedies and herbal products. Our mission is to promote wellness through the power of nature. All our products are eco-friendly, cruelty-free, and made with love and care.</p>
+  </section>
+
+  <section id="products">
+    <h2 class="section-title">Featured Products</h2>
+    <div class="products">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1590080877034-2c2f4ddc2526" alt="Herbal Tea" />
+        <h3>Organic Herbal Tea</h3>
+        <p>Boost immunity and relieve stress with our calming tea blend.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1615917124960-2f72c6715996" alt="Aloe Vera Gel" />
+        <h3>Aloe Vera Gel</h3>
+        <p>Soothes and nourishes skin naturally, free from chemicals.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1566843970972-05f5c1125b78" alt="Herbal Oil" />
+        <h3>Herbal Hair Oil</h3>
+        <p>Strengthen roots and reduce hair fall with Ayurvedic ingredients.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="benefits">
+    <h2 class="section-title">Why Choose Herbal?</h2>
+    <div class="benefits">
+      <div class="card">
+        <h3>100% Natural</h3>
+        <p>No chemicals, no additives—just pure plant-based healing.</p>
+      </div>
+      <div class="card">
+        <h3>Eco-Friendly</h3>
+        <p>Sustainable sourcing and biodegradable packaging.</p>
+      </div>
+      <div class="card">
+        <h3>Trusted by Experts</h3>
+        <p>Backed by traditional knowledge and verified by professionals.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2 class="section-title">What Our Customers Say</h2>
+    <div class="testimonials">
+      <div class="card">
+        <p>“Herbal’s tea blend helped me sleep better and feel more energetic.”</p>
+        <strong>— Aarti, Delhi</strong>
+      </div>
+      <div class="card">
+        <p>“I love the aloe vera gel! It cleared up my skin within days.”</p>
+        <strong>— Ramesh, Mumbai</strong>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <div class="contact">
+      <p>Have questions? Reach out to us at <strong>support@herbal.com</strong></p>
+      <p>Follow us on Instagram and Facebook for updates!</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Herbal. All rights reserved.</p>
+    <div>
+      <a href="#">Privacy Policy</a> | 
+      <a href="#">Terms of Use</a>
+    </div>
+  </footer>
+
+</body>
+</html>
